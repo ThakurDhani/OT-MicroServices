@@ -1,0 +1,11 @@
+scylladb:
+  host: ["127.0.0.1:9042"]  # or replace with real IP
+  username: scylladb
+  password: password
+  keyspace: employee_db
+
+redis:
+  enabled: false
+  host: 127.0.0.1  # or wherever Redis is, if you're using it
+  password: password
+  database: 0

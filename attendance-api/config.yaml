@@ -1,0 +1,11 @@
+postgres:
+  host: 127.0.0.1
+  port: 5432
+  user: app
+  password: new_password
+  database: attendance_db
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password: ""

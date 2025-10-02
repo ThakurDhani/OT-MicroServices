@@ -1,0 +1,113 @@
+nohup: ignoring input
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /metrics                  --> github.com/penglongli/gin-metrics/ginmetrics.(*Monitor).Use.func1 (2 handlers)
+[GIN-debug] GET    /api/v1/employee/health   --> employee-api/api.HealthCheckAPI (4 handlers)
+[GIN-debug] GET    /api/v1/employee/health/detail --> employee-api/api.DetailedHealthCheckAPI (4 handlers)
+[GIN-debug] POST   /api/v1/employee/create   --> employee-api/api.CreateEmployeeData (4 handlers)
+[GIN-debug] GET    /api/v1/employee/search   --> employee-api/api.ReadEmployeeData (4 handlers)
+[GIN-debug] GET    /api/v1/employee/search/all --> employee-api/api.ReadCompleteEmployeesData (4 handlers)
+[GIN-debug] GET    /api/v1/employee/search/location --> employee-api/api.ReadEmployeesLocation (4 handlers)
+[GIN-debug] GET    /api/v1/employee/search/designation --> employee-api/api.ReadEmployeesDesignation (4 handlers)
+[GIN-debug] GET    /swagger/*any             --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+{"level":"error","msg":"Unable to create session with scylladb: gocql: unable to create session: unable to discover protocol version: dial tcp 127.0.0.1:9042: connect: connection refused","time":"2025-10-01T19:23:14Z"}
+{"client_ip":"127.0.0.1","http_method":"GET","latency":625002,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/api/v1/employee/health","status_code":400,"time":"2025-10-01T19:23:14Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":71,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:00:10Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":65,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/favicon.ico","status_code":404,"time":"2025-10-01T20:00:12Z"}
+{"client_ip":"127.0.0.1","http_method":"GET","latency":66,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:01:37Z"}
+{"client_ip":"204.76.203.219","http_method":"GET","latency":65,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-01T20:03:12Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":89,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:04:15Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":65,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:04:34Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":66,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:09:28Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":83,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:09:37Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":99,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:11:00Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":73,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:11:02Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":87,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:11:03Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":67,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:11:09Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":65,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:12:48Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":66,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:12:49Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":67,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:12:50Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":72,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:12:57Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":79,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:15:23Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":64,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:15:29Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":74,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger-ui/index.html","status_code":404,"time":"2025-10-01T20:26:08Z"}
+{"client_ip":"127.0.0.1","http_method":"GET","latency":266480,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-01T20:27:33Z"}
+{"client_ip":"127.0.0.1","http_method":"GET","latency":135250,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-01T20:27:51Z"}
+{"client_ip":"98.86.222.114","http_method":"GET","latency":139259,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-01T20:28:04Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":144127,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-01T20:28:19Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":384006628,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui.css","status_code":200,"time":"2025-10-01T20:28:19Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":1195041759,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui-standalone-preset.js","status_code":200,"time":"2025-10-01T20:28:20Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":24235603854,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui-bundle.js","status_code":200,"time":"2025-10-01T20:28:43Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":46715,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/favicon-32x32.png","status_code":200,"time":"2025-10-01T20:28:46Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":225945,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/doc.json","status_code":200,"time":"2025-10-01T20:29:36Z"}
+{"client_ip":"172.202.117.177","http_method":"GET","latency":67,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/manager/text/list","status_code":404,"time":"2025-10-01T20:42:25Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":140909,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-01T20:44:08Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":30133,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui.css","status_code":304,"time":"2025-10-01T20:44:09Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":47975,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui-bundle.js","status_code":304,"time":"2025-10-01T20:44:09Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":47184,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui-standalone-preset.js","status_code":304,"time":"2025-10-01T20:44:09Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":66,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"//swagger/doc.json","status_code":404,"time":"2025-10-01T20:44:26Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":65,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"//swagger/doc.json","status_code":404,"time":"2025-10-01T20:44:38Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":131545,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-01T20:45:06Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":72081,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/favicon-32x32.png","status_code":304,"time":"2025-10-01T20:45:07Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":222558,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/doc.json","status_code":200,"time":"2025-10-01T20:45:45Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":136943,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-01T20:55:53Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":47619,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui.css","status_code":304,"time":"2025-10-01T20:55:53Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":40524,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui-bundle.js","status_code":304,"time":"2025-10-01T20:55:53Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":42105,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui-standalone-preset.js","status_code":304,"time":"2025-10-01T20:55:54Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":27159,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/favicon-32x32.png","status_code":304,"time":"2025-10-01T20:55:54Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":177528,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/doc.json","status_code":200,"time":"2025-10-01T20:56:07Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":117777,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-01T21:05:06Z"}
+{"client_ip":"122.201.25.95","http_method":"GET","latency":75,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-01T21:15:38Z"}
+{"client_ip":"204.76.203.219","http_method":"GET","latency":94,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-01T21:59:18Z"}
+{"client_ip":"198.235.24.158","http_method":"GET","latency":66,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-01T23:02:34Z"}
+{"client_ip":"80.75.212.83","http_method":"GET","latency":66,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-02T00:09:06Z"}
+{"client_ip":"204.76.203.219","http_method":"GET","latency":66,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-02T00:11:19Z"}
+{"client_ip":"62.1.127.58","http_method":"GET","latency":65,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-02T00:16:21Z"}
+{"client_ip":"216.218.206.68","http_method":"GET","latency":65,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-02T00:21:48Z"}
+{"client_ip":"216.218.206.124","http_method":"GET","latency":82,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/favicon.ico","status_code":404,"time":"2025-10-02T00:22:21Z"}
+{"client_ip":"216.218.206.104","http_method":"GET","latency":90,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"http://api.ipify.org/?format=json","status_code":404,"time":"2025-10-02T00:22:42Z"}
+{"client_ip":"216.218.206.96","http_method":"CONNECT","latency":93,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"www.shadowserver.org:443","status_code":404,"time":"2025-10-02T00:22:48Z"}
+{"client_ip":"216.218.206.68","http_method":"GET","latency":64,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/geoserver/web/","status_code":404,"time":"2025-10-02T00:22:53Z"}
+{"client_ip":"209.38.104.13","http_method":"GET","latency":90,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-02T01:16:20Z"}
+{"client_ip":"209.38.104.13","http_method":"GET","latency":77,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/favicon.ico","status_code":404,"time":"2025-10-02T01:16:20Z"}
+{"client_ip":"204.76.203.219","http_method":"GET","latency":71,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-02T01:56:19Z"}
+{"client_ip":"27.204.239.227","http_method":"POST","latency":83,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/GponForm/diag_Form?images/","status_code":404,"time":"2025-10-02T03:39:15Z"}
+{"client_ip":"167.172.187.107","http_method":"GET","latency":74,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-02T03:58:20Z"}
+{"client_ip":"167.172.187.107","http_method":"GET","latency":86,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/download/powershell/","status_code":404,"time":"2025-10-02T03:58:20Z"}
+{"client_ip":"167.172.187.107","http_method":"GET","latency":66,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/get.php","status_code":404,"time":"2025-10-02T03:58:21Z"}
+{"client_ip":"204.76.203.219","http_method":"GET","latency":66,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-02T04:06:36Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":151814,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-02T05:01:40Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":43503,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui.css","status_code":304,"time":"2025-10-02T05:01:40Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":42122,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui-standalone-preset.js","status_code":304,"time":"2025-10-02T05:01:40Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":46423,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui-bundle.js","status_code":304,"time":"2025-10-02T05:01:40Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":27060,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/favicon-32x32.png","status_code":304,"time":"2025-10-02T05:01:41Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":353962,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/doc.json","status_code":200,"time":"2025-10-02T05:01:57Z"}
+{"client_ip":"103.69.97.17","http_method":"CONNECT","latency":65,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"www.google.com:443","status_code":404,"time":"2025-10-02T05:52:17Z"}
+{"client_ip":"204.76.203.219","http_method":"GET","latency":65,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-02T05:56:04Z"}
+{"client_ip":"134.209.172.134","http_method":"GET","latency":73,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/","status_code":404,"time":"2025-10-02T06:49:40Z"}
+{"client_ip":"134.209.172.134","http_method":"GET","latency":80,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/download/powershell/","status_code":404,"time":"2025-10-02T06:49:40Z"}
+{"client_ip":"134.209.172.134","http_method":"GET","latency":73,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/get.php","status_code":404,"time":"2025-10-02T06:49:40Z"}
+{"client_ip":"127.0.0.1","http_method":"GET","latency":66,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/employee/search/all","status_code":404,"time":"2025-10-02T06:58:22Z"}
+{"client_ip":"127.0.0.1","http_method":"GET","latency":74,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/employee/search/all","status_code":404,"time":"2025-10-02T07:01:31Z"}
+{"client_ip":"127.0.0.1","http_method":"POST","latency":88,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/employee/create","status_code":404,"time":"2025-10-02T07:01:55Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":134413,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-02T07:07:18Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":41208,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui.css","status_code":304,"time":"2025-10-02T07:07:18Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":47361,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui-bundle.js","status_code":304,"time":"2025-10-02T07:07:18Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":47579,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/swagger-ui-standalone-preset.js","status_code":304,"time":"2025-10-02T07:07:18Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":25462,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/favicon-32x32.png","status_code":304,"time":"2025-10-02T07:07:19Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":117567,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-02T07:10:29Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":87422,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-02T07:10:35Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":121859,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-02T07:23:22Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":154137,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/doc.json","status_code":200,"time":"2025-10-02T07:23:36Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":101622,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-02T07:23:42Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":385764,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-02T07:27:03Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":126775,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-02T07:28:48Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":173877,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-02T07:31:53Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":220763,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/doc.json","status_code":200,"time":"2025-10-02T07:32:10Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":127517,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/index.html","status_code":200,"time":"2025-10-02T07:38:43Z"}
+{"client_ip":"38.137.30.21","http_method":"GET","latency":347005,"level":"info","msg":"HTTP REQUEST STATUS","request_uri":"/swagger/doc.json","status_code":200,"time":"2025-10-02T07:39:01Z"}

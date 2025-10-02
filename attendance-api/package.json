@@ -1,0 +1,20 @@
+{
+  "name": "attendance-api",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"./static/attendance-api-logo.svg\" height=\"280\" width=\"280\"> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OT-MICROSERVICES/attendance-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OT-MICROSERVICES/attendance-api/issues"
+  },
+  "homepage": "https://github.com/OT-MICROSERVICES/attendance-api#readme"
+}

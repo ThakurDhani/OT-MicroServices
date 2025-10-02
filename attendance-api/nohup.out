@@ -1,0 +1,150 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.207:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [01/Oct/2025 10:23:37] "GET /api/v1/attendance/health HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 10:24:06] "GET /api/v1/attendance/health HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 10:24:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 10:24:13] "[33mGET /api/v1/attendance HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 10:24:27] "[33mGET / HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 10:24:33] "[33mGET / HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 11:29:03] "GET /api/v1/attendance/health HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 11:29:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 11:31:15] "[33mGET / HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 11:31:25] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Oct/2025 12:00:22] "GET /api/v1/attendance/health HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 12:01:08] "GET /api/v1/attendance/health HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 12:05:46] "[33mGET /api/v1/attendance HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 12:05:52] "[33mGET /api/v1 HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 12:05:58] "[33mGET /api HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 12:09:22] "[33mGET / HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 12:09:28] "[33mGET / HTTP/1.1[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 12:09:44] "GET /apidocs/ HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 12:09:44] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 12:09:45] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 12:09:45] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 12:09:45] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 12:09:48] "GET /apispec_1.json HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 12:09:48] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 12:13:45] "GET /api/v1/attendance/health HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 14:32:20] "GET /apidocs/ HTTP/1.1" 200 -
+sudo: serve: command not found
+Traceback (most recent call last):
+  File "/home/ubuntu/OT-Microservices/attendance-api/app.py", line 8, in <module>
+    from router.attendance import route as create_record
+  File "/home/ubuntu/OT-Microservices/attendance-api/router/attendance.py", line 15, in <module>
+    from router.cache import cache
+  File "/home/ubuntu/OT-Microservices/attendance-api/router/cache.py", line 4, in <module>
+    from flask_caching import Cache
+ModuleNotFoundError: No module named 'flask_caching'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.207:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [01/Oct/2025 15:14:01] "GET /api/v1/attendance/health HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+38.137.30.21 - - [01/Oct/2025 17:03:26] "GET /apidocs/ HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 17:03:26] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 17:03:26] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 17:03:26] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 17:03:26] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 17:03:30] "GET /apispec_1.json HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 17:03:30] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Oct/2025 17:17:25] "GET /api/v1/attendance/health HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/home/ubuntu/OT-Microservices/attendance-api/app.py", line 5, in <module>
+    from flask import Flask, json
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "/home/ubuntu/OT-Microservices/attendance-api/app.py", line 5, in <module>
+    from flask import Flask, json
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "/home/ubuntu/OT-Microservices/attendance-api/app.py", line 5, in <module>
+    from flask import Flask, json
+ModuleNotFoundError: No module named 'flask'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.207:5000
+[33mPress CTRL+C to quit[0m
+38.137.30.21 - - [01/Oct/2025 20:59:14] "GET /apidocs/ HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 20:59:17] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 20:59:17] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 20:59:17] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 20:59:17] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 20:59:18] "GET /apispec_1.json HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 20:59:18] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 20:59:26] "GET /apidocs/ HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 20:59:27] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 20:59:27] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 20:59:27] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 20:59:30] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 20:59:31] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 20:59:31] "GET /apispec_1.json HTTP/1.1" 200 -
+176.32.195.85 - - [01/Oct/2025 21:04:31] "[33mGET / HTTP/1.0[0m" 404 -
+38.137.30.21 - - [01/Oct/2025 21:05:03] "GET /apidocs/ HTTP/1.1" 200 -
+38.137.30.21 - - [01/Oct/2025 21:05:04] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 21:05:04] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 21:05:04] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 21:05:04] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 21:05:05] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+38.137.30.21 - - [01/Oct/2025 21:05:05] "GET /apispec_1.json HTTP/1.1" 200 -
+68.183.94.184 - - [02/Oct/2025 00:32:27] "[33mGET / HTTP/1.1[0m" 404 -
+68.183.94.184 - - [02/Oct/2025 00:32:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+64.62.156.122 - - [02/Oct/2025 01:58:21] "[33mGET / HTTP/1.1[0m" 404 -
+64.62.156.123 - - [02/Oct/2025 01:58:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+38.137.30.21 - - [02/Oct/2025 05:02:11] "GET /apidocs/ HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 05:02:11] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 05:02:11] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 05:02:12] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 05:02:12] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 05:02:13] "GET /apispec_1.json HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 05:02:13] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 07:48:52] "GET /apidocs/ HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 07:48:52] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 07:48:52] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 07:48:53] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 07:48:53] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 07:48:54] "GET /apispec_1.json HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 07:48:54] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+3.131.215.38 - - [02/Oct/2025 09:16:38] "[33mGET / HTTP/1.1[0m" 404 -
+3.131.215.38 - - [02/Oct/2025 09:18:08] "[33mGET / HTTP/1.1[0m" 404 -
+3.131.215.38 - - [02/Oct/2025 09:18:49] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03I¸kO\x1b\x96\x94iÕJyÖÆY5Úå')
+3.131.215.38 - - [02/Oct/2025 09:18:49] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03I¸kO\x1b\x96\x94iÕJyÖÆY5Úå[0m" HTTPStatus.BAD_REQUEST -
+3.131.215.38 - - [02/Oct/2025 09:19:56] code 400, message Bad request syntax ('SSH-2.0-Go')
+3.131.215.38 - - [02/Oct/2025 09:19:56] "[35m[1mSSH-2.0-Go[0m" HTTPStatus.BAD_REQUEST -
+3.131.215.38 - - [02/Oct/2025 09:20:28] code 400, message Bad request version ('À\x14À')
+3.131.215.38 - - [02/Oct/2025 09:20:28] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03D\x02\x9fu©AKÆ\x12\x91¯;´úò\x0bÄpsBsQÕ\x9f\x97ø\x892!n\x85Ë\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.207:5000
+[33mPress CTRL+C to quit[0m
+38.137.30.21 - - [02/Oct/2025 15:27:45] "GET /apidocs/ HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 15:27:46] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 15:27:46] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 15:27:46] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 15:27:46] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 15:27:49] "GET /apispec_1.json HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 15:27:49] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 15:30:08] "GET /apidocs/ HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 15:30:08] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 15:30:08] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 15:30:08] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 15:30:08] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+38.137.30.21 - - [02/Oct/2025 15:30:09] "GET /apispec_1.json HTTP/1.1" 200 -
+38.137.30.21 - - [02/Oct/2025 15:30:09] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
